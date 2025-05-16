@@ -23,3 +23,9 @@ while var > 0:
         continue
     print("Current variable value:", var)
 print("\nGoodbye")
+for i in range(25):
+    if i % 10==0:
+        print(i)
+        continue
+    print ("value is:", i)
+    
